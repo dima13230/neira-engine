@@ -1,6 +1,6 @@
-# **KailashEngine** #
+# **Neira Engine** #
 
-### **Youtube Demo** ###
+### **Youtube Demo of Kailash Engine, on which Neira Engine was based** ###
 
 [![Alt text](https://img.youtube.com/vi/kcQ22UdTSbQ/0.jpg)](https://www.youtube.com/watch?v=kcQ22UdTSbQ)
 
@@ -21,7 +21,10 @@
 * Camera and object motion blur
 * Precomputed Atmospheric Scattering
 * Voxel based global illumination
+* Render modules system
+* Components system
 * ..and maybe some other things, I don't know :)
+
 
 # **Controls:** #
 
