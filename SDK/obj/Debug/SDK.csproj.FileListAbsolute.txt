@@ -1,0 +1,39 @@
+F:\Programming\NeiraEngine\Build\SDK.exe.config
+F:\Programming\NeiraEngine\Build\SDK.exe
+F:\Programming\NeiraEngine\Build\SDK.pdb
+F:\Programming\NeiraEngine\SDK\obj\Debug\SDK.csprojAssemblyReference.cache
+F:\Programming\NeiraEngine\SDK\obj\Debug\MainWindow.g.cs
+F:\Programming\NeiraEngine\SDK\obj\Debug\App.g.cs
+F:\Programming\NeiraEngine\SDK\obj\Debug\SDK_MarkupCompile.cache
+F:\Programming\NeiraEngine\SDK\obj\Debug\SDK_MarkupCompile.lref
+F:\Programming\NeiraEngine\SDK\obj\Debug\MainWindow.baml
+F:\Programming\NeiraEngine\SDK\obj\Debug\SDK.g.resources
+F:\Programming\NeiraEngine\SDK\obj\Debug\SDK.Properties.Resources.resources
+F:\Programming\NeiraEngine\SDK\obj\Debug\SDK.csproj.GenerateResource.cache
+F:\Programming\NeiraEngine\SDK\obj\Debug\SDK.csproj.CoreCompileInputs.cache
+F:\Programming\NeiraEngine\SDK\obj\Debug\SDK.csproj.CopyComplete
+F:\Programming\NeiraEngine\SDK\obj\Debug\SDK.exe
+F:\Programming\NeiraEngine\SDK\obj\Debug\SDK.pdb
+E:\NeiraEngine\Build\SDK.exe.config
+E:\NeiraEngine\Build\SDK.exe
+E:\NeiraEngine\Build\SDK.pdb
+E:\NeiraEngine\SDK\obj\Debug\SDK.csprojAssemblyReference.cache
+E:\NeiraEngine\SDK\obj\Debug\MainWindow.g.cs
+E:\NeiraEngine\SDK\obj\Debug\App.g.cs
+E:\NeiraEngine\SDK\obj\Debug\SDK_MarkupCompile.cache
+E:\NeiraEngine\SDK\obj\Debug\SDK_MarkupCompile.lref
+E:\NeiraEngine\SDK\obj\Debug\MainWindow.baml
+E:\NeiraEngine\SDK\obj\Debug\SDK.g.resources
+E:\NeiraEngine\SDK\obj\Debug\SDK.Properties.Resources.resources
+E:\NeiraEngine\SDK\obj\Debug\SDK.csproj.GenerateResource.cache
+E:\NeiraEngine\SDK\obj\Debug\SDK.csproj.CoreCompileInputs.cache
+E:\NeiraEngine\SDK\obj\Debug\SDK.csproj.CopyComplete
+E:\NeiraEngine\SDK\obj\Debug\SDK.exe
+E:\NeiraEngine\SDK\obj\Debug\SDK.pdb
+H:\Google Disk\NeiraEngine\SDK\obj\Debug\SDK.csprojAssemblyReference.cache
+H:\Google Disk\NeiraEngine\SDK\obj\Debug\MainWindow.g.cs
+H:\Google Disk\NeiraEngine\SDK\obj\Debug\App.g.cs
+H:\Google Disk\NeiraEngine\SDK\obj\Debug\SDK_MarkupCompile.cache
+H:\Google Disk\NeiraEngine\SDK\obj\Debug\SDK_MarkupCompile.lref
+H:\Google Disk\NeiraEngine\SDK\obj\Debug\SDK.exe
+H:\Google Disk\NeiraEngine\SDK\obj\Debug\SDK.pdb

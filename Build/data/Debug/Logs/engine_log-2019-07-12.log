@@ -1,0 +1,34 @@
+
+==================================================================================
+2019-07-12 10:04:25
+==================================================================================
+
+Cannot Load Data (player_spatial.dat)    Файл 'H:\Google Disk\NeiraEngine\Build\data\SaveData\player_spatial.dat' не найден.
+Neira Engine                             
+
+==================================================================================
+2019-07-12 10:05:13
+==================================================================================
+
+Cannot Load Data (player_spatial.dat)    Файл 'H:\Google Disk\NeiraEngine\Build\data\SaveData\player_spatial.dat' не найден.
+Neira Engine                             
+
+==================================================================================
+2019-07-12 10:05:44
+==================================================================================
+
+Cannot Load Data (player_spatial.dat)    Файл 'H:\Google Disk\NeiraEngine\Build\data\SaveData\player_spatial.dat' не найден.
+Neira Engine                             
+Hello from the NativeOpenGL              
+Loading Collada File                     light_objects.dae
+	Creating Image Dictionary               0 images found :<
+	Creating Material Dictionary            0 effects found :<
+	Creating Animation Dictionary           0 animations found :<
+	Creating Visuals Dictionary             2 visuals found
+	Loading Skinning Data                   0 skins found :<
+	Creating Mesh Dictionary                2 meshes found
+	Loading Mesh Visuals                    
+		Loading Visual Scene                   pLight
+		Loading Visual Scene                   sLight
+	Loading Controlled Visuals              
+Loading level...                         test_2d

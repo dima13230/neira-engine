@@ -1,0 +1,6 @@
+- Finish sprite system
+- Make particle systems
+- Make Volumetric Lightning
+- Make Chromatic Abberation
+- Integrate Hair & Fur systen -- https://github.com/Toffanim/Hair
+- Add DirectX and Vulkan support

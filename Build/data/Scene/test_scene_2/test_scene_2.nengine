@@ -1,0 +1,9 @@
+glob
+startTime 23
+timeSpeed 0.5
+eglob
+
+obj musicPlayer
+com NeiraEngine.Components.AudioComponent
+par initialFilename music/through_all_the_stars.ogg
+par playOnStart true

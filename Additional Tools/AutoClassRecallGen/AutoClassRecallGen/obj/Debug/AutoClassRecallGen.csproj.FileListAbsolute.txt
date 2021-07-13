@@ -1,0 +1,7 @@
+H:\Google Disk\NeiraEngine\Additional Tools\AutoClassRecallGen\AutoClassRecallGen\bin\Debug\AutoClassRecallGen.exe.config
+H:\Google Disk\NeiraEngine\Additional Tools\AutoClassRecallGen\AutoClassRecallGen\bin\Debug\AutoClassRecallGen.exe
+H:\Google Disk\NeiraEngine\Additional Tools\AutoClassRecallGen\AutoClassRecallGen\bin\Debug\AutoClassRecallGen.pdb
+H:\Google Disk\NeiraEngine\Additional Tools\AutoClassRecallGen\AutoClassRecallGen\obj\Debug\AutoClassRecallGen.csprojAssemblyReference.cache
+H:\Google Disk\NeiraEngine\Additional Tools\AutoClassRecallGen\AutoClassRecallGen\obj\Debug\AutoClassRecallGen.csproj.CoreCompileInputs.cache
+H:\Google Disk\NeiraEngine\Additional Tools\AutoClassRecallGen\AutoClassRecallGen\obj\Debug\AutoClassRecallGen.exe
+H:\Google Disk\NeiraEngine\Additional Tools\AutoClassRecallGen\AutoClassRecallGen\obj\Debug\AutoClassRecallGen.pdb

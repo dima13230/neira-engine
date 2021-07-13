@@ -1,0 +1,8 @@
+F:\Programming\KailashEngine-master\Build\Run.exe.config
+F:\Programming\KailashEngine-master\Build\Run.exe
+F:\Programming\KailashEngine-master\Build\Run.pdb
+F:\Programming\KailashEngine-master\TibetEngine\obj\x64\Debug\Run.csprojAssemblyReference.cache
+F:\Programming\KailashEngine-master\TibetEngine\obj\x64\Debug\Run.csproj.CoreCompileInputs.cache
+F:\Programming\KailashEngine-master\TibetEngine\obj\x64\Debug\Run.csproj.CopyComplete
+F:\Programming\KailashEngine-master\TibetEngine\obj\x64\Debug\Run.exe
+F:\Programming\KailashEngine-master\TibetEngine\obj\x64\Debug\Run.pdb

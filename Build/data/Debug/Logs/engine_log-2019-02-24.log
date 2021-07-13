@@ -1,0 +1,1300 @@
+
+==================================================================================
+2019-02-24 12:11:28
+==================================================================================
+
+Loading Collada File                     light_objects.dae
+	Creating Image Dictionary               0 images found :<
+	Creating Material Dictionary            0 effects found :<
+	Creating Animation Dictionary           0 animations found :<
+	Creating Visuals Dictionary             2 visuals found
+	Loading Skinning Data                   0 skins found :<
+	Creating Mesh Dictionary                2 meshes found
+	Loading Mesh Visuals                    
+		Loading Visual Scene                   pLight
+		Loading Visual Scene                   sLight
+	Loading Controlled Visuals              
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture1D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2DArray.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture3D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCube.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCubeArray.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: crosshair/crosshair_Render.vert      SUCCESS
+FS: crosshair/crosshair_Render.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: sprite/sprite_Render.vert            SUCCESS
+FS: sprite/sprite_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurGauss.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurGauss.comp       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurMovingAverage.comp SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurStreak.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Special)           SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: final/final_Scene.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Final Scene)       SUCCESS
+VS: common/geometry.vert                 SUCCESS
+TC: gBuffer/gBuffer_Geometry.tesc        SUCCESS
+TE: gBuffer/gBuffer_Geometry.tese        SUCCESS
+GS: gBuffer/gBuffer_Geometry.geom        SUCCESS
+FS: gBuffer/gBuffer_Geometry.frag        SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_SPOT.frag   SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_POINT.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: gBuffer/gBuffer_Accumulation.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (gBuffer)           SUCCESS
+VS: vxgi/vxgi_Voxelize.vert              SUCCESS
+GS: vxgi/vxgi_Voxelize.geom              SUCCESS
+FS: vxgi/vxgi_Voxelize.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_ConeTrace.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_RayTrace.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_Injection.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_MipMap.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (VXGI - Cone Trace) SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Spot.geom              SUCCESS
+FS: shadow/shadow_Spot.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Point.geom             SUCCESS
+FS: shadow/shadow_Point.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Directional.geom       SUCCESS
+FS: shadow/shadow_Directional.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Shadow - Spot)     SUCCESS
+[ INFO ] FrameBuffer (Shadow - Point)    SUCCESS
+[ INFO ] FrameBuffer (Shadow - Directional) SUCCESS
+VS: skybox/skybox_Render.vert            SUCCESS
+FS: skybox/skybox_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_Luminosity.comp              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_AutoExposure.comp            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: hdr/hdr_ScaleScene.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Blend.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_BrightSpots.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Flare.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Lens)              SUCCESS
+CS: dof/dof_AutoFocus.comp               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC.frag                     SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Fix.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Combine.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_Bokeh_Reset.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_Bokeh_Extract.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: dof/dof_Bokeh_Render.vert            SUCCESS
+GS: dof/dof_Bokeh_Render.geom            SUCCESS
+FS: dof/dof_Bokeh_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_DOF_Blur.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_DOF_Blend.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (DOF - Half Resolution) SUCCESS
+[ INFO ] FrameBuffer (DOF - Full Resolution) SUCCESS
+CS: motion_blur/mb_Dilate.comp           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: motion_blur/mb_Blur.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Motion Blur)       SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Transmittance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Irradiance1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_Inscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_CopyIrradiance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterS.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_IrradianceN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: ats/ats_Atmoshpere.vert              SUCCESS
+FS: ats/ats_Atmoshpere.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (ATS Atmoshpere)    SUCCESS
+Loading level...                         test_2d
+OpenGL Error:                            InvalidValue
+
+
+Exiting...                             
+
+
+
+==================================================================================
+2019-02-24 12:12:02
+==================================================================================
+
+Loading Collada File                     light_objects.dae
+	Creating Image Dictionary               0 images found :<
+	Creating Material Dictionary            0 effects found :<
+	Creating Animation Dictionary           0 animations found :<
+	Creating Visuals Dictionary             2 visuals found
+	Loading Skinning Data                   0 skins found :<
+	Creating Mesh Dictionary                2 meshes found
+	Loading Mesh Visuals                    
+		Loading Visual Scene                   pLight
+		Loading Visual Scene                   sLight
+	Loading Controlled Visuals              
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture1D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2DArray.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture3D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCube.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCubeArray.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: crosshair/crosshair_Render.vert      SUCCESS
+FS: crosshair/crosshair_Render.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: sprite/sprite_Render.vert            SUCCESS
+FS: sprite/sprite_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurGauss.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurGauss.comp       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurMovingAverage.comp SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurStreak.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Special)           SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: final/final_Scene.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Final Scene)       SUCCESS
+VS: common/geometry.vert                 SUCCESS
+TC: gBuffer/gBuffer_Geometry.tesc        SUCCESS
+TE: gBuffer/gBuffer_Geometry.tese        SUCCESS
+GS: gBuffer/gBuffer_Geometry.geom        SUCCESS
+FS: gBuffer/gBuffer_Geometry.frag        SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_SPOT.frag   SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_POINT.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: gBuffer/gBuffer_Accumulation.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (gBuffer)           SUCCESS
+VS: vxgi/vxgi_Voxelize.vert              SUCCESS
+GS: vxgi/vxgi_Voxelize.geom              SUCCESS
+FS: vxgi/vxgi_Voxelize.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_ConeTrace.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_RayTrace.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_Injection.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_MipMap.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (VXGI - Cone Trace) SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Spot.geom              SUCCESS
+FS: shadow/shadow_Spot.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Point.geom             SUCCESS
+FS: shadow/shadow_Point.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Directional.geom       SUCCESS
+FS: shadow/shadow_Directional.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Shadow - Spot)     SUCCESS
+[ INFO ] FrameBuffer (Shadow - Point)    SUCCESS
+[ INFO ] FrameBuffer (Shadow - Directional) SUCCESS
+VS: skybox/skybox_Render.vert            SUCCESS
+FS: skybox/skybox_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_Luminosity.comp              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_AutoExposure.comp            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: hdr/hdr_ScaleScene.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Blend.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_BrightSpots.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Flare.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Lens)              SUCCESS
+CS: dof/dof_AutoFocus.comp               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC.frag                     SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Fix.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Combine.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_Bokeh_Reset.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_Bokeh_Extract.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: dof/dof_Bokeh_Render.vert            SUCCESS
+GS: dof/dof_Bokeh_Render.geom            SUCCESS
+FS: dof/dof_Bokeh_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_DOF_Blur.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_DOF_Blend.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (DOF - Half Resolution) SUCCESS
+[ INFO ] FrameBuffer (DOF - Full Resolution) SUCCESS
+CS: motion_blur/mb_Dilate.comp           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: motion_blur/mb_Blur.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Motion Blur)       SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Transmittance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Irradiance1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_Inscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_CopyIrradiance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterS.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_IrradianceN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: ats/ats_Atmoshpere.vert              SUCCESS
+FS: ats/ats_Atmoshpere.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (ATS Atmoshpere)    SUCCESS
+Loading level...                         test_2d
+OpenGL Error:                            InvalidValue
+
+
+Exiting...                             
+
+
+
+==================================================================================
+2019-02-24 12:16:20
+==================================================================================
+
+Loading Collada File                     light_objects.dae
+	Creating Image Dictionary               0 images found :<
+	Creating Material Dictionary            0 effects found :<
+	Creating Animation Dictionary           0 animations found :<
+	Creating Visuals Dictionary             2 visuals found
+	Loading Skinning Data                   0 skins found :<
+	Creating Mesh Dictionary                2 meshes found
+	Loading Mesh Visuals                    
+		Loading Visual Scene                   pLight
+		Loading Visual Scene                   sLight
+	Loading Controlled Visuals              
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture1D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2DArray.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture3D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCube.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCubeArray.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: crosshair/crosshair_Render.vert      SUCCESS
+FS: crosshair/crosshair_Render.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: sprite/sprite_Render.vert            SUCCESS
+FS: sprite/sprite_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurGauss.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurGauss.comp       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurMovingAverage.comp SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurStreak.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Special)           SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: final/final_Scene.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Final Scene)       SUCCESS
+VS: common/geometry.vert                 SUCCESS
+TC: gBuffer/gBuffer_Geometry.tesc        SUCCESS
+TE: gBuffer/gBuffer_Geometry.tese        SUCCESS
+GS: gBuffer/gBuffer_Geometry.geom        SUCCESS
+FS: gBuffer/gBuffer_Geometry.frag        SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_SPOT.frag   SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_POINT.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: gBuffer/gBuffer_Accumulation.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (gBuffer)           SUCCESS
+VS: vxgi/vxgi_Voxelize.vert              SUCCESS
+GS: vxgi/vxgi_Voxelize.geom              SUCCESS
+FS: vxgi/vxgi_Voxelize.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_ConeTrace.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_RayTrace.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_Injection.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_MipMap.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (VXGI - Cone Trace) SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Spot.geom              SUCCESS
+FS: shadow/shadow_Spot.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Point.geom             SUCCESS
+FS: shadow/shadow_Point.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Directional.geom       SUCCESS
+FS: shadow/shadow_Directional.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Shadow - Spot)     SUCCESS
+[ INFO ] FrameBuffer (Shadow - Point)    SUCCESS
+[ INFO ] FrameBuffer (Shadow - Directional) SUCCESS
+VS: skybox/skybox_Render.vert            SUCCESS
+FS: skybox/skybox_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_Luminosity.comp              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_AutoExposure.comp            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: hdr/hdr_ScaleScene.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Blend.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_BrightSpots.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Flare.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Lens)              SUCCESS
+CS: dof/dof_AutoFocus.comp               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC.frag                     SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Fix.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Combine.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_Bokeh_Reset.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_Bokeh_Extract.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: dof/dof_Bokeh_Render.vert            SUCCESS
+GS: dof/dof_Bokeh_Render.geom            SUCCESS
+FS: dof/dof_Bokeh_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_DOF_Blur.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_DOF_Blend.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (DOF - Half Resolution) SUCCESS
+[ INFO ] FrameBuffer (DOF - Full Resolution) SUCCESS
+CS: motion_blur/mb_Dilate.comp           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: motion_blur/mb_Blur.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Motion Blur)       SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Transmittance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Irradiance1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_Inscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_CopyIrradiance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterS.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_IrradianceN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: ats/ats_Atmoshpere.vert              SUCCESS
+FS: ats/ats_Atmoshpere.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (ATS Atmoshpere)    SUCCESS
+Loading level...                         test_2d
+OpenGL Error:                            InvalidValue
+
+
+Exiting...                             
+
+
+
+==================================================================================
+2019-02-24 12:17:27
+==================================================================================
+
+Loading Collada File                     light_objects.dae
+	Creating Image Dictionary               0 images found :<
+	Creating Material Dictionary            0 effects found :<
+	Creating Animation Dictionary           0 animations found :<
+	Creating Visuals Dictionary             2 visuals found
+	Loading Skinning Data                   0 skins found :<
+	Creating Mesh Dictionary                2 meshes found
+	Loading Mesh Visuals                    
+		Loading Visual Scene                   pLight
+		Loading Visual Scene                   sLight
+	Loading Controlled Visuals              
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture1D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2DArray.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture3D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCube.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCubeArray.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: crosshair/crosshair_Render.vert      SUCCESS
+FS: crosshair/crosshair_Render.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: sprite/sprite_Render.vert            SUCCESS
+FS: sprite/sprite_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurGauss.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurGauss.comp       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurMovingAverage.comp SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurStreak.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Special)           SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: final/final_Scene.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Final Scene)       SUCCESS
+VS: common/geometry.vert                 SUCCESS
+TC: gBuffer/gBuffer_Geometry.tesc        SUCCESS
+TE: gBuffer/gBuffer_Geometry.tese        SUCCESS
+GS: gBuffer/gBuffer_Geometry.geom        SUCCESS
+FS: gBuffer/gBuffer_Geometry.frag        SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_SPOT.frag   SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_POINT.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: gBuffer/gBuffer_Accumulation.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (gBuffer)           SUCCESS
+VS: vxgi/vxgi_Voxelize.vert              SUCCESS
+GS: vxgi/vxgi_Voxelize.geom              SUCCESS
+FS: vxgi/vxgi_Voxelize.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_ConeTrace.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_RayTrace.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_Injection.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_MipMap.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (VXGI - Cone Trace) SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Spot.geom              SUCCESS
+FS: shadow/shadow_Spot.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Point.geom             SUCCESS
+FS: shadow/shadow_Point.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Directional.geom       SUCCESS
+FS: shadow/shadow_Directional.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Shadow - Spot)     SUCCESS
+[ INFO ] FrameBuffer (Shadow - Point)    SUCCESS
+[ INFO ] FrameBuffer (Shadow - Directional) SUCCESS
+VS: skybox/skybox_Render.vert            SUCCESS
+FS: skybox/skybox_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_Luminosity.comp              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_AutoExposure.comp            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: hdr/hdr_ScaleScene.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Blend.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_BrightSpots.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Flare.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Lens)              SUCCESS
+CS: dof/dof_AutoFocus.comp               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC.frag                     SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Fix.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Combine.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_Bokeh_Reset.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_Bokeh_Extract.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: dof/dof_Bokeh_Render.vert            SUCCESS
+GS: dof/dof_Bokeh_Render.geom            SUCCESS
+FS: dof/dof_Bokeh_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_DOF_Blur.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_DOF_Blend.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (DOF - Half Resolution) SUCCESS
+[ INFO ] FrameBuffer (DOF - Full Resolution) SUCCESS
+CS: motion_blur/mb_Dilate.comp           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: motion_blur/mb_Blur.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Motion Blur)       SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Transmittance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Irradiance1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_Inscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_CopyIrradiance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterS.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_IrradianceN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: ats/ats_Atmoshpere.vert              SUCCESS
+FS: ats/ats_Atmoshpere.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (ATS Atmoshpere)    SUCCESS
+Loading level...                         test_2d
+OpenGL Error:                            InvalidValue
+
+
+Exiting...                             
+
+
+
+==================================================================================
+2019-02-24 12:17:53
+==================================================================================
+
+Loading Collada File                     light_objects.dae
+	Creating Image Dictionary               0 images found :<
+	Creating Material Dictionary            0 effects found :<
+	Creating Animation Dictionary           0 animations found :<
+	Creating Visuals Dictionary             2 visuals found
+	Loading Skinning Data                   0 skins found :<
+	Creating Mesh Dictionary                2 meshes found
+	Loading Mesh Visuals                    
+		Loading Visual Scene                   pLight
+		Loading Visual Scene                   sLight
+	Loading Controlled Visuals              
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture1D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2DArray.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture3D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCube.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCubeArray.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: crosshair/crosshair_Render.vert      SUCCESS
+FS: crosshair/crosshair_Render.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: sprite/sprite_Render.vert            SUCCESS
+FS: sprite/sprite_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurGauss.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurGauss.comp       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurMovingAverage.comp SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurStreak.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Special)           SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: final/final_Scene.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Final Scene)       SUCCESS
+VS: common/geometry.vert                 SUCCESS
+TC: gBuffer/gBuffer_Geometry.tesc        SUCCESS
+TE: gBuffer/gBuffer_Geometry.tese        SUCCESS
+GS: gBuffer/gBuffer_Geometry.geom        SUCCESS
+FS: gBuffer/gBuffer_Geometry.frag        SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_SPOT.frag   SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_POINT.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: gBuffer/gBuffer_Accumulation.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (gBuffer)           SUCCESS
+VS: vxgi/vxgi_Voxelize.vert              SUCCESS
+GS: vxgi/vxgi_Voxelize.geom              SUCCESS
+FS: vxgi/vxgi_Voxelize.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_ConeTrace.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_RayTrace.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_Injection.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_MipMap.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (VXGI - Cone Trace) SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Spot.geom              SUCCESS
+FS: shadow/shadow_Spot.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Point.geom             SUCCESS
+FS: shadow/shadow_Point.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Directional.geom       SUCCESS
+FS: shadow/shadow_Directional.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Shadow - Spot)     SUCCESS
+[ INFO ] FrameBuffer (Shadow - Point)    SUCCESS
+[ INFO ] FrameBuffer (Shadow - Directional) SUCCESS
+VS: skybox/skybox_Render.vert            SUCCESS
+FS: skybox/skybox_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+
+==================================================================================
+2019-02-24 12:18:17
+==================================================================================
+
+Loading Collada File                     light_objects.dae
+	Creating Image Dictionary               0 images found :<
+	Creating Material Dictionary            0 effects found :<
+	Creating Animation Dictionary           0 animations found :<
+	Creating Visuals Dictionary             2 visuals found
+	Loading Skinning Data                   0 skins found :<
+	Creating Mesh Dictionary                2 meshes found
+	Loading Mesh Visuals                    
+		Loading Visual Scene                   pLight
+		Loading Visual Scene                   sLight
+	Loading Controlled Visuals              
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture1D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2DArray.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture3D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCube.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCubeArray.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: crosshair/crosshair_Render.vert      SUCCESS
+FS: crosshair/crosshair_Render.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: sprite/sprite_Render.vert            SUCCESS
+FS: sprite/sprite_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurGauss.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurGauss.comp       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurMovingAverage.comp SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurStreak.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Special)           SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: final/final_Scene.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Final Scene)       SUCCESS
+VS: common/geometry.vert                 SUCCESS
+TC: gBuffer/gBuffer_Geometry.tesc        SUCCESS
+TE: gBuffer/gBuffer_Geometry.tese        SUCCESS
+GS: gBuffer/gBuffer_Geometry.geom        SUCCESS
+FS: gBuffer/gBuffer_Geometry.frag        SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_SPOT.frag   SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_POINT.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: gBuffer/gBuffer_Accumulation.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (gBuffer)           SUCCESS
+VS: vxgi/vxgi_Voxelize.vert              SUCCESS
+GS: vxgi/vxgi_Voxelize.geom              SUCCESS
+FS: vxgi/vxgi_Voxelize.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_ConeTrace.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_RayTrace.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_Injection.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_MipMap.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (VXGI - Cone Trace) SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Spot.geom              SUCCESS
+FS: shadow/shadow_Spot.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Point.geom             SUCCESS
+FS: shadow/shadow_Point.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Directional.geom       SUCCESS
+FS: shadow/shadow_Directional.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Shadow - Spot)     SUCCESS
+[ INFO ] FrameBuffer (Shadow - Point)    SUCCESS
+[ INFO ] FrameBuffer (Shadow - Directional) SUCCESS
+VS: skybox/skybox_Render.vert            SUCCESS
+FS: skybox/skybox_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_Luminosity.comp              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_AutoExposure.comp            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: hdr/hdr_ScaleScene.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Blend.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_BrightSpots.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Flare.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Lens)              SUCCESS
+CS: dof/dof_AutoFocus.comp               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC.frag                     SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Fix.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Combine.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_Bokeh_Reset.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_Bokeh_Extract.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: dof/dof_Bokeh_Render.vert            SUCCESS
+GS: dof/dof_Bokeh_Render.geom            SUCCESS
+FS: dof/dof_Bokeh_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_DOF_Blur.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_DOF_Blend.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (DOF - Half Resolution) SUCCESS
+[ INFO ] FrameBuffer (DOF - Full Resolution) SUCCESS
+CS: motion_blur/mb_Dilate.comp           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: motion_blur/mb_Blur.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Motion Blur)       SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Transmittance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Irradiance1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_Inscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_CopyIrradiance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterS.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_IrradianceN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: ats/ats_Atmoshpere.vert              SUCCESS
+FS: ats/ats_Atmoshpere.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (ATS Atmoshpere)    SUCCESS
+Loading level...                         test_2d
+OpenGL Error:                            InvalidValue
+
+
+Exiting...                             
+
+
+
+==================================================================================
+2019-02-24 12:19:19
+==================================================================================
+
+Loading Collada File                     light_objects.dae
+	Creating Image Dictionary               0 images found :<
+	Creating Material Dictionary            0 effects found :<
+	Creating Animation Dictionary           0 animations found :<
+	Creating Visuals Dictionary             2 visuals found
+	Loading Skinning Data                   0 skins found :<
+	Creating Mesh Dictionary                2 meshes found
+	Loading Mesh Visuals                    
+		Loading Visual Scene                   pLight
+		Loading Visual Scene                   sLight
+	Loading Controlled Visuals              
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture1D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture2DArray.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: common/render_Texture3D.frag         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCube.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_TextureCube.vert       SUCCESS
+FS: common/render_TextureCubeArray.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: crosshair/crosshair_Render.vert      SUCCESS
+FS: crosshair/crosshair_Render.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: sprite/sprite_Render.vert            SUCCESS
+FS: sprite/sprite_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurGauss.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurGauss.comp       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: special/special_BlurMovingAverage.comp SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: special/special_BlurStreak.frag      SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Special)           SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: final/final_Scene.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Final Scene)       SUCCESS
+VS: common/geometry.vert                 SUCCESS
+TC: gBuffer/gBuffer_Geometry.tesc        SUCCESS
+TE: gBuffer/gBuffer_Geometry.tese        SUCCESS
+GS: gBuffer/gBuffer_Geometry.geom        SUCCESS
+FS: gBuffer/gBuffer_Geometry.frag        SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_SPOT.frag   SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: gBuffer/gBuffer_Stencil.vert         SUCCESS
+FS: gBuffer/gBuffer_Lighting_POINT.frag  SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: gBuffer/gBuffer_Accumulation.frag    SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (gBuffer)           SUCCESS
+VS: vxgi/vxgi_Voxelize.vert              SUCCESS
+GS: vxgi/vxgi_Voxelize.geom              SUCCESS
+FS: vxgi/vxgi_Voxelize.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_ConeTrace.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: vxgi/vxgi_Trace.vert                 SUCCESS
+FS: vxgi/vxgi_RayTrace.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_Injection.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: vxgi/vxgi_MipMap.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (VXGI - Cone Trace) SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Spot.geom              SUCCESS
+FS: shadow/shadow_Spot.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Point.geom             SUCCESS
+FS: shadow/shadow_Point.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/geometry.vert                 SUCCESS
+GS: shadow/shadow_Directional.geom       SUCCESS
+FS: shadow/shadow_Directional.frag       SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Shadow - Spot)     SUCCESS
+[ INFO ] FrameBuffer (Shadow - Point)    SUCCESS
+[ INFO ] FrameBuffer (Shadow - Directional) SUCCESS
+VS: skybox/skybox_Render.vert            SUCCESS
+FS: skybox/skybox_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_Luminosity.comp              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: hdr/hdr_AutoExposure.comp            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: hdr/hdr_ScaleScene.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Blend.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_BrightSpots.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: lens/lens_Flare.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Lens)              SUCCESS
+CS: dof/dof_AutoFocus.comp               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC.frag                     SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Fix.frag                 SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_COC_Combine.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_Bokeh_Reset.comp             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_Bokeh_Extract.frag           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: dof/dof_Bokeh_Render.vert            SUCCESS
+GS: dof/dof_Bokeh_Render.geom            SUCCESS
+FS: dof/dof_Bokeh_Render.frag            SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+CS: dof/dof_DOF_Blur.comp                SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: dof/dof_DOF_Blend.frag               SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (DOF - Half Resolution) SUCCESS
+[ INFO ] FrameBuffer (DOF - Full Resolution) SUCCESS
+CS: motion_blur/mb_Dilate.comp           SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: motion_blur/mb_Blur.frag             SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (Motion Blur)       SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Transmittance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_Irradiance1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_Inscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_CopyIrradiance.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatter1.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterS.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+FS: ats/precomputation/ats_IrradianceN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_InscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: common/render_Texture2D.vert         SUCCESS
+GS: ats/precomputation/ats_Precompute.geom SUCCESS
+FS: ats/precomputation/ats_CopyInscatterN.frag SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+VS: ats/ats_Atmoshpere.vert              SUCCESS
+FS: ats/ats_Atmoshpere.frag              SUCCESS
+[ INFO ] Program Linking                 SUCCESS
+[ INFO ] FrameBuffer (ATS Atmoshpere)    SUCCESS
+Loading level...                         test_2d
+OpenGL Error:                            InvalidValue
+
+
+Exiting...                             
+
+

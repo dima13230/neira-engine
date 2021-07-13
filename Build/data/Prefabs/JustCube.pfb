@@ -1,0 +1,4 @@
+pos 0 0 0
+com TibetEngine.Components.MeshComponent
+par filename JustCube
+com TibetEngine.Components.RigidBodyComponent

@@ -1,0 +1,4 @@
+obj musicPlayer
+com NeiraEngine.Components.AudioComponent
+par initialFilename music/boadicea.ogg
+par playOnStart true

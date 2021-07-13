@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{104ED369-6C69-461F-9E02-092CF35B94FD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NativeOpenGL</RootNamespace>
+    <AssemblyName>NativeOpenGL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Build\render_modules\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FX\fx_AtmosphericScattering.cs" />
+    <Compile Include="FX\fx_CrossHair.cs" />
+    <Compile Include="FX\fx_DepthOfField.cs" />
+    <Compile Include="FX\fx_Final.cs" />
+    <Compile Include="FX\fx_gBuffer.cs" />
+    <Compile Include="FX\fx_HDR.cs" />
+    <Compile Include="FX\fx_Lens.cs" />
+    <Compile Include="FX\fx_MotionBlur.cs" />
+    <Compile Include="FX\fx_Quad.cs" />
+    <Compile Include="FX\fx_Shadow.cs" />
+    <Compile Include="FX\fx_SkyBox.cs" />
+    <Compile Include="FX\fx_Special.cs" />
+    <Compile Include="FX\fx_Sprite.cs" />
+    <Compile Include="FX\fx_Test.cs" />
+    <Compile Include="FX\fx_VXGI.cs" />
+    <Compile Include="FX\RenderEffect.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\NeiraEngine\NeiraEngine.csproj">
+      <Project>{6418e4e7-1bd6-47b6-8b61-dea73115576a}</Project>
+      <Name>NeiraEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,52 @@
+F:\Programming\NeiraEngine\Run\bin\Debug\Run.exe.config
+F:\Programming\NeiraEngine\Run\bin\Debug\Run.exe
+F:\Programming\NeiraEngine\Run\bin\Debug\Run.pdb
+F:\Programming\NeiraEngine\Run\bin\Debug\AntTweakBar.NET.dll
+F:\Programming\NeiraEngine\Run\bin\Debug\BulletSharp.dll
+F:\Programming\NeiraEngine\Run\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\Programming\NeiraEngine\Run\bin\Debug\NeiraEngine.dll
+F:\Programming\NeiraEngine\Run\bin\Debug\Neo.Lua.Desktop.dll
+F:\Programming\NeiraEngine\Run\bin\Debug\Neo.Lua.dll
+F:\Programming\NeiraEngine\Run\bin\Debug\NVorbis.dll
+F:\Programming\NeiraEngine\Run\bin\Debug\OpenTK.dll
+F:\Programming\NeiraEngine\Run\bin\Debug\NeiraEngine.pdb
+F:\Programming\NeiraEngine\Run\bin\Debug\AntTweakBar.NET.xml
+F:\Programming\NeiraEngine\Run\bin\Debug\Neo.Lua.pdb
+F:\Programming\NeiraEngine\Run\bin\Debug\Neo.Lua.xml
+F:\Programming\NeiraEngine\Run\bin\Debug\Neo.Lua.Desktop.pdb
+F:\Programming\NeiraEngine\Run\bin\Debug\Neo.Lua.Desktop.xml
+F:\Programming\NeiraEngine\Run\bin\Debug\NVorbis.xml
+F:\Programming\NeiraEngine\Run\bin\Debug\OpenTK.xml
+F:\Programming\NeiraEngine\Run\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+F:\Programming\NeiraEngine\Build\Run.exe.config
+F:\Programming\NeiraEngine\Build\Run.exe
+F:\Programming\NeiraEngine\Build\Run.pdb
+F:\Programming\NeiraEngine\Run\obj\Debug\Run.csprojAssemblyReference.cache
+F:\Programming\NeiraEngine\Run\obj\Debug\Run.csproj.CoreCompileInputs.cache
+F:\Programming\NeiraEngine\Run\obj\Debug\Run.csproj.CopyComplete
+F:\Programming\NeiraEngine\Run\obj\Debug\Run.exe
+F:\Programming\NeiraEngine\Run\obj\Debug\Run.pdb
+F:\Programming\NeiraEngine\Run\obj\Debug\NeiraEngine.Run.SplashScreen.resources
+F:\Programming\NeiraEngine\Run\obj\Debug\Run.csproj.GenerateResource.cache
+F:\Programming\NeiraEngine\Run\obj\Debug\NeiraEngine.Run.Properties.Resources.resources
+E:\NeiraEngine\Build\Run.exe.config
+E:\NeiraEngine\Build\Run.exe
+E:\NeiraEngine\Build\Run.pdb
+E:\NeiraEngine\Run\obj\Debug\Run.csprojAssemblyReference.cache
+E:\NeiraEngine\Run\obj\Debug\NeiraEngine.Run.Properties.Resources.resources
+E:\NeiraEngine\Run\obj\Debug\NeiraEngine.Run.SplashScreen.resources
+E:\NeiraEngine\Run\obj\Debug\Run.csproj.GenerateResource.cache
+E:\NeiraEngine\Run\obj\Debug\Run.csproj.CoreCompileInputs.cache
+E:\NeiraEngine\Run\obj\Debug\Run.csproj.CopyComplete
+E:\NeiraEngine\Run\obj\Debug\Run.exe
+E:\NeiraEngine\Run\obj\Debug\Run.pdb
+H:\Google Disk\NeiraEngine\Build\Run.exe.config
+H:\Google Disk\NeiraEngine\Build\Run.exe
+H:\Google Disk\NeiraEngine\Build\Run.pdb
+H:\Google Disk\NeiraEngine\Run\obj\Debug\Run.csprojAssemblyReference.cache
+H:\Google Disk\NeiraEngine\Run\obj\Debug\NeiraEngine.Run.SplashScreen.resources
+H:\Google Disk\NeiraEngine\Run\obj\Debug\Run.csproj.GenerateResource.cache
+H:\Google Disk\NeiraEngine\Run\obj\Debug\Run.csproj.CoreCompileInputs.cache
+H:\Google Disk\NeiraEngine\Run\obj\Debug\Run.csproj.CopyComplete
+H:\Google Disk\NeiraEngine\Run\obj\Debug\Run.exe
+H:\Google Disk\NeiraEngine\Run\obj\Debug\Run.pdb

@@ -1,0 +1,15 @@
+glob
+startTime 23
+timeSpeed 0
+eglob
+
+obj testSprite
+pos 0 0 0
+com NeiraEngine.Components.SpriteComponent
+par startupBank crosshair.png
+
+obj kusosSprite
+pos 0 0 0
+rot 60 0 0
+com NeiraEngine.Components.SpriteComponent
+par startupBank kusok_sontsa.jpg
